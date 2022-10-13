@@ -125,7 +125,12 @@ unity를 활용해 3D 1인칭 게임을 만들생각입니다.
 [게임 시스템 디자인] <a name='5'></a>
 
 ## 1. 게임 오브젝트 분해 (구성 요소 분석)
-  
+  |<center>번호</center>|<center>오브젝트 이름(영문명칭)</center>|<center>오브젝트 이미지</center>|
+  |:----:|:----:|:----:|
+  |1|player1,2,3|<img src="./img/player1.png" width="500"> <img src="./img/player2.png" width="500"> <img src="./img/player3.png" width="500">|
+  |2|Ai 1,2,3|<img src="./img/ai1.png" width="500"> <img src="./img/ai2.png" width="500"> <img src="./img/ai3.png" width="500">|
+  |3|Map|<img src="./img/chooseMap.png" width="500">|
+  |4|PlayerHp|<img src="./img/playerHp.png" width="500">|
   
   
 ## 2. 파라미터(속성) 뽑아 보기
@@ -136,7 +141,7 @@ unity를 활용해 3D 1인칭 게임을 만들생각입니다.
   |체력|PlayerHp|플레이어의 체력||
   |이동속도|PlayerSpeed|플레이어의 이동 속도||
   |구르기|Skill|원하는 방향으로 일정거리 구름|원하는 곳으로 굴러 총알을 피함|
-  |앉기|Sit|Player.position에 player가 앉음|장애물 뒤에 숨거나 총알을 피함
+  |앉기|Sit|Player.position에 player가 앉음|장애물 뒤에 숨거나 총알을 피함|
   
 ## 2) 오브젝트 이름 : Ai 1,2,3
   |<center>속성</center>|<center>영문명칭</center>|<center>설명</center>|

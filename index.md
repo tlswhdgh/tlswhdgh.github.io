@@ -183,12 +183,14 @@ unity를 활용해 3D 1인칭 게임을 만들생각입니다.
   |Idle|Skill|Idle 상태에서 Player가 보는 방향으로 구름(WASD 누른 상태에서도 가능)|
   |Idle|Sit|Idle 상태에서 Player가 지금 위치에 앉음|
   |Sit|Idle|앉은 상태(Ctrl)을 누른 시간동안 앉은 자세 유지/ Ctrl키 놓으면 Idle 상태|
+  |Idle|damaged|플레이어가 데미지를 입은 상태(1초간 무적)|
+  |damaged|Idle|1초간 무적상태에서 Idle 상태로 전환|
   
 # 2) 오브젝트 이름 : Ai 1,2,3
   |<center>현상태</center>|<center>전이상태</center>|<center>전이조건</center>|
   |:----|:----|:----|
   |Idle|Razer|Idle상태가 몇초간 지속되면 Player.position 및 랜덤 위치에 레이저 발사|
-  |Razer|Fire|빨간색 Razer의 지속시간이 끝나면 발사, 데미지 입힘(시간이 지날수록 발사 텀이 짧아짐)|
+  |Razer|Fire|빨간색 Razer의 지속시간이 끝나면 발사, 데미지 입힘|
   |Razer2|Fire|파란색 Razer의 지속시간이 끝나면 발사, HP회복(맵에 따라 정해진 횟수만 발사)|
   |Fire|Idle|사격이 끝나면 Idle 상태로 돌아옴|
   
@@ -197,7 +199,7 @@ unity를 활용해 3D 1인칭 게임을 만들생각입니다.
   |:----|:----|:----|
   |어린 후드인|Player1|어린아이의 모습/ 완숙한 후드인의 1/4의 HP와 이동속도를 가짐|
   |젊은 후드인|Player2|성인의 모습/ 완숙한 후드인의 1/2의 HP와 이동속도를 가짐|
-  |완숙한 후드인|Player3|후드인의 모습/ 빠른 이동속도|
+  |완숙한 후드인|Player3|후드인의 모습/ 빠른 이동속도와 강인한 체력|
   
 ## 1) 6. 게임의 규칙
   

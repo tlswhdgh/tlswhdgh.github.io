@@ -46,6 +46,8 @@
   <img src="./img/그림.png">
 - 동영상
   [![](./img/그림2.png)](https://www.youtube.com/shorts/ty3dihS3kGs)
+  [![](./img/그림4.png)](https://www.youtube.com/shorts/0sO-3CYNcTo)
+  [![](./img/그림3.png)](https://www.youtube.com/shorts/bFJ92q7D_tg)
 
 <br><br>
 

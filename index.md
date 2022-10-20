@@ -131,74 +131,74 @@ unity를 활용해 3D 1인칭 게임을 만들생각입니다.
 ## 2. 파라미터(속성) 뽑아 보기
   
 # 1) 오브젝트 이름 : player 1,2,3
-  |<center>속성</center>|<center>영문명칭</center>|<center>설명</center>|<center>비고</center>|
-  |:----|:----|:----|:----|
-  |체력|PlayerHp|플레이어의 체력||
-  |이동속도|PlayerSpeed|플레이어의 이동 속도||
-  |구르기|Skill|원하는 방향으로 일정거리 구름|원하는 곳으로 굴러 총알을 피함|
-  |앉기|Sit|Player.position에 player가 앉음|장애물 뒤에 숨거나 총알을 피함|
+|<center>속성</center>|<center>영문명칭</center>|<center>설명</center>|<center>비고</center>|
+|:----|:----|:----|:----|
+|체력|PlayerHp|플레이어의 체력||
+|이동속도|PlayerSpeed|플레이어의 이동 속도||
+|구르기|Skill|원하는 방향으로 일정거리 구름|원하는 곳으로 굴러 총알을 피함|
+|앉기|Sit|Player.position에 player가 앉음|장애물 뒤에 숨거나 총알을 피함|
   
 # 2) 오브젝트 이름 : Ai 1,2,3
-  |<center>속성</center>|<center>영문명칭</center>|<center>설명</center>|
-  |:----|:----|:----|
-  |사격|Fire|Ai가 Player.position 및 랜덤 위치에 사격|
-  |레이저|Razer|사격하기 몇초 전 레이저가 총구에서 사격방향으로 나옴|
+|<center>속성</center>|<center>영문명칭</center>|<center>설명</center>|
+|:----|:----|:----|
+|사격|Fire|Ai가 Player.position 및 랜덤 위치에 사격|
+|레이저|Razer|사격하기 몇초 전 레이저가 총구에서 사격방향으로 나옴|
   
 # 3) 오브젝트 이름 : 맵 1,2,3
-  |<center>속성</center>|<center>영문명칭</center>|<center>설명</center>|<center>장애물</center>|
-  |:----|:----|:----|:----|
-  |서부시대 맵|WesternMap|후드식 페스티벌 속 서부시대 배경으로 하는 총게임의 맵|회전초|
-  |길거리 초입 맵|StreetMap|Street에서 겪을 수 있는 일상을 자아낸 맵|드럼통|
-  |후드 길거리 맵|HoodMap|완연한 후드인의 일상을 표현한 맵|경찰차|
-  |모든 맵은 시간이 지날수록 장애물이 적어짐|
+|<center>속성</center>|<center>영문명칭</center>|<center>설명</center>|<center>장애물</center>|
+|:----|:----|:----|:----|
+|서부시대 맵|WesternMap|후드식 페스티벌 속 서부시대 배경으로 하는 총게임의 맵|회전초|
+|길거리 초입 맵|StreetMap|Street에서 겪을 수 있는 일상을 자아낸 맵|드럼통|
+|후드 길거리 맵|HoodMap|완연한 후드인의 일상을 표현한 맵|경찰차|
+|모든 맵은 시간이 지날수록 장애물이 적어짐|
   
 ## 3. 행동 뽑아 보기
   
 # 1) 오브젝트 이름 : Player 1,2,3
-  |<center>행동</center>|<center>설명</center>|
-  |:----|:----|
-  |앞으로 이동(W)|Idle 상태에서 정면으로 이동|
-  |뒤로 이동(S)|Idle 상태에서 뒤으로 이동|
-  |좌로 이동(A)|Idle 상태에서 좌로 이동|
-  |우로 이동(D)|Idle 상태에서 우로 이동|
-  |구르기(Shift)|쿨타임 6초(구르는 시간은 1.5초)|
-  |앉기(Ctrl)|쿨타임 2초(앉는 키 누른 동안은 계속 유지)|
+|<center>행동</center>|<center>설명</center>|
+|:----|:----|
+|앞으로 이동(W)|Idle 상태에서 정면으로 이동|
+|뒤로 이동(S)|Idle 상태에서 뒤으로 이동|
+|좌로 이동(A)|Idle 상태에서 좌로 이동|
+|우로 이동(D)|Idle 상태에서 우로 이동|
+|구르기(Shift)|쿨타임 6초(구르는 시간은 1.5초)|
+|앉기(Ctrl)|쿨타임 2초(앉는 키 누른 동안은 계속 유지)|
 
 # 2) 오브젝트 이름 : Ai 1,2,3
-  |<center>행동</center>|<center>설명</center>|<center>특징</center>|
-  |:----|:----|:----|
-  |사격|Ai가 Player.position 및 랜덤위치에 사격|맵마다 총의 발사속도, 발사하는 탄의 개수를 달리 한다. 1.Anaconda  2.Pistol  3.Rifle|
-  |레이저|사격하기 몇초 전 레이저가 총구에서 사격방향으로 나옴|빨간 레이저에서 나오는 총알은 데미지를 입히고 파란 레이저에서 나오는 총알은 회복을 시킴|
+|<center>행동</center>|<center>설명</center>|<center>특징</center>|
+|:----|:----|:----|
+|사격|Ai가 Player.position 및 랜덤위치에 사격|맵마다 총의 발사속도, 발사하는 탄의 개수를 달리 한다. 1.Anaconda  2.Pistol  3.Rifle|
+|레이저|사격하기 몇초 전 레이저가 총구에서 사격방향으로 나옴|빨간 레이저에서 나오는 총알은 데미지를 입히고 파란 레이저에서 나오는 총알은 회복을 시킴|
   
 ## 4. 상태 뽑아 보기
   
 # 1) 오브젝트 이름 : Player 1,2,3
-  |<center>현상태</center>|<center>전이상태</center>|<center>전이조건</center>|
-  |:----|:----|:----|
-  |Idle|W|Idle 상태에서 정면으로 이동|
-  |Idle|S|Idle 상태에서 뒤으로 이동|
-  |Idle|A|Idle 상태에서 좌로 이동|
-  |Idle|D|Idle 상태에서 우로 이동|
-  |Idle|Skill|Idle 상태에서 Player가 보는 방향으로 구름(WASD 누른 상태에서도 가능)|
-  |Idle|Sit|Idle 상태에서 Player가 지금 위치에 앉음|
-  |Sit|Idle|앉은 상태(Ctrl)을 누른 시간동안 앉은 자세 유지/ Ctrl키 놓으면 Idle 상태|
-  |Idle|damaged|플레이어가 데미지를 입은 상태(1초간 무적)|
-  |damaged|Idle|1초간 무적상태에서 Idle 상태로 전환|
+|<center>현상태</center>|<center>전이상태</center>|<center>전이조건</center>|
+|:----|:----|:----|
+|Idle|W|Idle 상태에서 정면으로 이동|
+|Idle|S|Idle 상태에서 뒤으로 이동|
+|Idle|A|Idle 상태에서 좌로 이동|
+|Idle|D|Idle 상태에서 우로 이동|
+|Idle|Skill|Idle 상태에서 Player가 보는 방향으로 구름(WASD 누른 상태에서도 가능)|
+|Idle|Sit|Idle 상태에서 Player가 지금 위치에 앉음|
+|Sit|Idle|앉은 상태(Ctrl)을 누른 시간동안 앉은 자세 유지/ Ctrl키 놓으면 Idle 상태|
+|Idle|damaged|플레이어가 데미지를 입은 상태(1초간 무적)|
+|damaged|Idle|1초간 무적상태에서 Idle 상태로 전환|
   
 # 2) 오브젝트 이름 : Ai 1,2,3
-  |<center>현상태</center>|<center>전이상태</center>|<center>전이조건</center>|
-  |:----|:----|:----|
-  |Idle|Razer|Idle상태가 몇초간 지속되면 Player.position 및 랜덤 위치에 레이저 발사|
-  |Razer|Fire|빨간색 Razer의 지속시간이 끝나면 발사, 데미지 입힘|
-  |Razer2|Fire|파란색 Razer의 지속시간이 끝나면 발사, HP회복(맵에 따라 정해진 횟수만 발사)|
-  |Fire|Idle|사격이 끝나면 Idle 상태로 돌아옴|
+|<center>현상태</center>|<center>전이상태</center>|<center>전이조건</center>|
+|:----|:----|:----|
+|Idle|Razer|Idle상태가 몇초간 지속되면 Player.position 및 랜덤 위치에 레이저 발사|
+|Razer|Fire|빨간색 Razer의 지속시간이 끝나면 발사, 데미지 입힘|
+|Razer2|Fire|파란색 Razer의 지속시간이 끝나면 발사, HP회복(맵에 따라 정해진 횟수만 발사)|
+|Fire|Idle|사격이 끝나면 Idle 상태로 돌아옴|
   
 ## 5. 플레이어 캐릭터 속성(파라미터)
-  |<center>속성</center>|<center>영문명칭</center>|<center>설명</center>|
-  |:----|:----|:----|
-  |어린 후드인|Player1|어린아이의 모습/ 완숙한 후드인의 1/4의 HP와 이동속도를 가짐|
-  |젊은 후드인|Player2|성인의 모습/ 완숙한 후드인의 1/2의 HP와 이동속도를 가짐|
-  |완숙한 후드인|Player3|후드인의 모습/ 빠른 이동속도와 강인한 체력|
+|<center>속성</center>|<center>영문명칭</center>|<center>설명</center>|
+|:----|:----|:----|
+|어린 후드인|Player1|어린아이의 모습/ 완숙한 후드인의 1/4의 HP와 이동속도를 가짐|
+|젊은 후드인|Player2|성인의 모습/ 완숙한 후드인의 1/2의 HP와 이동속도를 가짐|
+|완숙한 후드인|Player3|후드인의 모습/ 빠른 이동속도와 강인한 체력|
   
 ## 1) 6. 게임의 규칙
   

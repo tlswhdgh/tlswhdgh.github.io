@@ -131,6 +131,7 @@ unity를 활용해 3D 1인칭 게임을 만들생각입니다.
 ## 2. 파라미터(속성) 뽑아 보기
   
 # 1) 오브젝트 이름 : player 1,2,3
+  
 |<center>속성</center>|<center>영문명칭</center>|<center>설명</center>|<center>비고</center>|
 |:----|:----|:----|:----|
 |체력|PlayerHp|플레이어의 체력||
@@ -139,12 +140,14 @@ unity를 활용해 3D 1인칭 게임을 만들생각입니다.
 |앉기|Sit|Player.position에 player가 앉음|장애물 뒤에 숨거나 총알을 피함|
   
 # 2) 오브젝트 이름 : Ai 1,2,3
+  
 |<center>속성</center>|<center>영문명칭</center>|<center>설명</center>|
 |:----|:----|:----|
 |사격|Fire|Ai가 Player.position 및 랜덤 위치에 사격|
 |레이저|Razer|사격하기 몇초 전 레이저가 총구에서 사격방향으로 나옴|
   
 # 3) 오브젝트 이름 : 맵 1,2,3
+  
 |<center>속성</center>|<center>영문명칭</center>|<center>설명</center>|<center>장애물</center>|
 |:----|:----|:----|:----|
 |서부시대 맵|WesternMap|후드식 페스티벌 속 서부시대 배경으로 하는 총게임의 맵|회전초|
@@ -155,6 +158,7 @@ unity를 활용해 3D 1인칭 게임을 만들생각입니다.
 ## 3. 행동 뽑아 보기
   
 # 1) 오브젝트 이름 : Player 1,2,3
+  
 |<center>행동</center>|<center>설명</center>|
 |:----|:----|
 |앞으로 이동(W)|Idle 상태에서 정면으로 이동|
@@ -165,6 +169,7 @@ unity를 활용해 3D 1인칭 게임을 만들생각입니다.
 |앉기(Ctrl)|쿨타임 2초(앉는 키 누른 동안은 계속 유지)|
 
 # 2) 오브젝트 이름 : Ai 1,2,3
+  
 |<center>행동</center>|<center>설명</center>|<center>특징</center>|
 |:----|:----|:----|
 |사격|Ai가 Player.position 및 랜덤위치에 사격|맵마다 총의 발사속도, 발사하는 탄의 개수를 달리 한다. 1.Anaconda  2.Pistol  3.Rifle|
@@ -173,6 +178,7 @@ unity를 활용해 3D 1인칭 게임을 만들생각입니다.
 ## 4. 상태 뽑아 보기
   
 # 1) 오브젝트 이름 : Player 1,2,3
+  
 |<center>현상태</center>|<center>전이상태</center>|<center>전이조건</center>|
 |:----|:----|:----|
 |Idle|W|Idle 상태에서 정면으로 이동|
@@ -186,6 +192,7 @@ unity를 활용해 3D 1인칭 게임을 만들생각입니다.
 |damaged|Idle|1초간 무적상태에서 Idle 상태로 전환|
   
 # 2) 오브젝트 이름 : Ai 1,2,3
+  
 |<center>현상태</center>|<center>전이상태</center>|<center>전이조건</center>|
 |:----|:----|:----|
 |Idle|Razer|Idle상태가 몇초간 지속되면 Player.position 및 랜덤 위치에 레이저 발사|
@@ -194,6 +201,7 @@ unity를 활용해 3D 1인칭 게임을 만들생각입니다.
 |Fire|Idle|사격이 끝나면 Idle 상태로 돌아옴|
   
 ## 5. 플레이어 캐릭터 속성(파라미터)
+  
 |<center>속성</center>|<center>영문명칭</center>|<center>설명</center>|
 |:----|:----|:----|
 |어린 후드인|Player1|어린아이의 모습/ 완숙한 후드인의 1/4의 HP와 이동속도를 가짐|

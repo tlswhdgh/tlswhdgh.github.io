@@ -272,7 +272,7 @@ unity를 활용해 3D 1인칭 게임을 만들생각입니다.
 # [시간별 흐름(flowchart)] <a name='7'></a>
 
   - 이미지
-<img src="./img/flowchart.png">
+<img src="./img/flowchart2.png">
   
 # [키보드 이벤트에 대한 흐름도] <a name='8'></a>
 

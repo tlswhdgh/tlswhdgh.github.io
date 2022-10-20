@@ -109,7 +109,7 @@ AI는 피스톨을 쏘고 몸을 숨길 장애물로는 드럼통or쓰레기통�
 AI는 경찰의 모습으로 라이플을 쏘고 장애물은 경찰차로 할 생각입니다.
 
 [음향]  
-카우보이 맵에서는 lil nas x - old town load 를 2,3번째 맵에서는 snoop dog나 eminem등의 래퍼의 노래를 생각하고 있습니다.
+카우보이 맵에서는 lil nas x - old town load 를 2,3번째 맵에서는 snoop dog나 eminem등 외국 래퍼의 노래를 생각하고 있습니다.
 <br>
 
 ## 4. 기술

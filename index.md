@@ -52,7 +52,7 @@
 
 # [대표 이미지]
 
-  <img src="./img/대표이미지.png">
+  <img src="./img/대표 이미지.png">
 
 <br><br>
 

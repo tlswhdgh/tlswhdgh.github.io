@@ -40,7 +40,7 @@
 
 # [포스터 이미지]
 
-  <img src="./img/대표 이미지.png">
+  <img src="./img/포스터.png">
 
 <br><br>
 

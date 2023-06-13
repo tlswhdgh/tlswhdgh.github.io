@@ -242,14 +242,14 @@ unity를 활용해 3D 3인칭 게임을 만들었습니다.
 # [시간별 흐름(flowchart)] <a name='7'></a>
 
   - 이미지
-<img src="./img/flowchart2.png">
+<img src="./img/FlowChart.png">
   
 # [키보드 이벤트에 대한 흐름도] <a name='8'></a>
 
 - 이미지
-<img src="./img/keyboardEvent.png">
+<img src="./img/keyCode.png">
   
 # [개발 일정] <a name='9'></a>
 
 - 이미지
-<img src="./img/image.png">
+<img src="./img/6Week.png">

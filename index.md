@@ -248,7 +248,7 @@ unity를 활용해 3D 3인칭 게임을 만들었습니다.
 # [키보드 이벤트에 대한 흐름도] <a name='8'></a>
 
 - 이미지
-<img src="./img/keyCode.png">
+<img src="./img/KeyCode.png">
   
 # [개발 일정] <a name='9'></a>
 
